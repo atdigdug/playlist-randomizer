@@ -45,7 +45,7 @@ const SearchBar = ({ setUrl, submit }) => {
           variant="standard"
           id="search"
           placeholder="Enter a youtube playlist id or playlist URL"
-          margin="normal"
+          margin="none"
           onChange={setUrl}
           color="secondary"
         />
