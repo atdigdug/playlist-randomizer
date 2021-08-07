@@ -31,7 +31,7 @@ const SearchBarStyled = withStyles({
     '&:after': {
       borderBottom: `2px solid ${colors.PRIMARY}`,
     },
-    '&:hover:not($disabled):not($focused):not($error):before': {
+    '&:hover': {
       borderBottom: `1px solid ${colors.PRIMARY_DIMMED}`,
     },
   },
